@@ -1,0 +1,32 @@
+# dependencies
+node_modules/
+
+# next / build output
+.next/
+.next-dev/
+.open-next/
+next-env.d.ts
+out/
+dist/
+
+# cloud / deploy output
+.vercel/
+.wrangler/
+
+# env files
+.env
+.env.*
+!.env.example
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# system files
+.DS_Store
+
+# test / type cache
+coverage/
+*.tsbuildinfo

@@ -1,0 +1,759 @@
+{
+  "Metadata": {
+    "name": "Universal Tower Defense Z Wiki",
+    "title": "Universal Tower Defense Z Wiki - Codes, Tier List and Guides",
+    "description": "Universal Tower Defense Z Wiki for active codes, unit tier lists, traits, relics, update notes, beginner routes, and Roblox play safety."
+  },
+  "Common": {
+    "premium": "Premium",
+    "login": "Log in",
+    "logout": "Log out",
+    "signUp": "Sign up",
+    "language": "Switch language",
+    "mode": {
+      "label": "Toggle mode",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System"
+    },
+    "theme": {
+      "label": "Toggle theme",
+      "default": "Monochrome",
+      "blue": "Blue",
+      "green": "Green",
+      "amber": "Amber",
+      "neutral": "Steel"
+    },
+    "copy": "Copy",
+    "saving": "Saving...",
+    "save": "Save",
+    "loading": "Loading...",
+    "cancel": "Cancel",
+    "logoutFailed": "Failed to log out",
+    "table": {
+      "totalRecords": "Total {count} records",
+      "noResults": "No results",
+      "loading": "Loading...",
+      "columns": "Columns",
+      "rowsPerPage": "Rows per page",
+      "page": "Page",
+      "firstPage": "First Page",
+      "lastPage": "Last Page",
+      "nextPage": "Next Page",
+      "previousPage": "Previous Page",
+      "ascending": "Asc",
+      "descending": "Desc",
+      "resetSorting": "Reset",
+      "hideColumn": "Hide",
+      "viewOptions": "View",
+      "toggleColumns": "Toggle columns",
+      "searchColumns": "Search columns...",
+      "noColumns": "No columns found.",
+      "clearFilters": "Clear filters"
+    }
+  },
+  "PricingPage": {
+    "title": "Pricing",
+    "description": "Optional supporter plans for keeping Universal Tower Defense Z Wiki maintained",
+    "subtitle": "Simple support options for readers who want to help maintain guides and data updates",
+    "monthly": "Monthly",
+    "yearly": "Yearly",
+    "payAsYouGo": "Pay as you go",
+    "PricingCard": {
+      "freePrice": "$0",
+      "perMonth": "/month",
+      "perYear": "/year",
+      "popular": "Most Popular",
+      "currentPlan": "Current Plan",
+      "yourCurrentPlan": "Your Current Plan",
+      "getStartedForFree": "Get Started For Free",
+      "getLifetimeAccess": "Get Lifetime Access",
+      "getStarted": "Get Started",
+      "notAvailable": "Not Available",
+      "daysTrial": "{days}-day free trial"
+    },
+    "CheckoutButton": {
+      "loading": "Loading...",
+      "checkoutFailed": "Failed to open checkout page"
+    }
+  },
+  "PricePlans": {
+    "free": {
+      "name": "Free",
+      "description": "Browse Universal Tower Defense Z Wiki with no payment required",
+      "features": {
+        "feature-1": "Universal Tower Defense Z codes and redemption notes",
+        "feature-2": "UTDZ tier list and unit role guidance",
+        "feature-3": "Guides for traits, relics, teams, and Roblox safety",
+        "feature-4": "Core pages updated as game information changes"
+      },
+      "limits": {
+        "limit-1": "Supporter features may be added later",
+        "limit-2": "Some data can change after game updates",
+        "limit-3": "Guide updates depend on available sources",
+        "limit-4": "Community feedback helps improve coverage"
+      }
+    },
+    "pro": {
+      "name": "Supporter",
+      "description": "For readers who want to support ongoing guide updates",
+      "features": {
+        "feature-1": "Support site maintenance",
+        "feature-2": "Help fund future UTDZ data checks",
+        "feature-3": "Keep gift code and guide pages fresh",
+        "feature-4": "Support cleaner walkthrough coverage",
+        "feature-5": "Help improve page speed and hosting stability",
+        "feature-6": "Support future tool experiments",
+        "feature-7": "No gameplay advantage is sold",
+        "feature-8": "No official affiliation claimed",
+        "feature-9": "Reader-first site improvements",
+        "feature-10": "Priority-ready support path"
+      },
+      "limits": {}
+    },
+    "max": {
+      "name": "Backer",
+      "description": "For heavier support of Universal Tower Defense Z Wiki maintenance",
+      "features": {
+        "feature-1": "Support expanded guide coverage",
+        "feature-2": "Help fund more frequent source reviews",
+        "feature-3": "Support long-form strategy pages",
+        "feature-4": "Keep hosting and tooling stable",
+        "feature-5": "Back future wiki improvements",
+        "feature-6": "Useful for teams maintaining community resources",
+        "feature-7": "No gameplay advantage is sold",
+        "feature-8": "No official affiliation claimed",
+        "feature-9": "Best fit for strong supporters",
+        "feature-10": "Highest support tier"
+      },
+      "limits": {}
+    },
+    "lifetime": {
+      "name": "Lifetime",
+      "description": "Premium features with one-time payment",
+      "features": {
+        "feature-1": "All Pro features",
+        "feature-2": "100 GB storage",
+        "feature-3": "Dedicated support",
+        "feature-4": "Enterprise-grade security",
+        "feature-5": "Advanced integrations",
+        "feature-6": "Custom branding",
+        "feature-7": "Lifetime updates"
+      }
+    }
+  },
+  "CreditPackages": {
+    "basic": {
+      "name": "Basic",
+      "description": "A starter credit pack for prompt tests and quick image edits",
+      "features": {
+        "feature-1": "200 credits",
+        "feature-2": "For lightweight image generation",
+        "feature-3": "Supports prompt and edit workflows",
+        "feature-4": "Good for one-off project runs",
+        "feature-5": "Flexible aspect ratios",
+        "feature-6": "Quality controls included",
+        "feature-7": "Prompt-first generation",
+        "feature-8": "Reference image editing",
+        "feature-9": "7-day history",
+        "feature-10": "Commercial-style output workflow"
+      }
+    },
+    "standard": {
+      "name": "Standard",
+      "description": "Balanced credits for creators iterating on image direction",
+      "features": {
+        "feature-1": "700 credits",
+        "feature-2": "More room for prompt comparison",
+        "feature-3": "Designed for heavier image editing",
+        "feature-4": "A strong fit for weekly creative work",
+        "feature-5": "Flexible aspect ratios",
+        "feature-6": "Quality and size controls",
+        "feature-7": "Better for campaign variations",
+        "feature-8": "Supports repeated edit passes",
+        "feature-9": "7-day history",
+        "feature-10": "Faster creative iteration"
+      }
+    },
+    "premium": {
+      "name": "Premium",
+      "description": "For heavy usage, launches, and multi-asset campaigns",
+      "features": {
+        "feature-1": "1,500 credits",
+        "feature-2": "High-volume image generation",
+        "feature-3": "Better fit for campaign production",
+        "feature-4": "Ideal for agencies and product teams",
+        "feature-5": "Flexible aspect ratios",
+        "feature-6": "Expanded output controls",
+        "feature-7": "Higher prompt iteration capacity",
+        "feature-8": "Heavier reference editing usage",
+        "feature-9": "7-day history",
+        "feature-10": "Best for launch and content sprints"
+      }
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "description": "Enterprise credits package description"
+    }
+  },
+  "NotFoundPage": {
+    "title": "404",
+    "message": "Sorry, the page you are looking for does not exist.",
+    "backToHome": "Back to home"
+  },
+  "ErrorPage": {
+    "title": "Oops! Something went wrong!",
+    "tryAgain": "Try again",
+    "backToHome": "Back to home"
+  },
+  "AuthPage": {
+    "login": {
+      "title": "Login",
+      "welcomeBack": "Welcome back",
+      "email": "Email",
+      "password": "Password",
+      "signIn": "Sign In",
+      "signUpHint": "Don't have an account? Sign up",
+      "forgotPassword": "Forgot Password?",
+      "signInWithGoogle": "Sign In with Google",
+      "signInWithGitHub": "Sign In with GitHub",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "or": "Or continue with",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "register": {
+      "title": "Register",
+      "createAccount": "Create an account",
+      "name": "Name",
+      "email": "Email",
+      "password": "Password",
+      "signUp": "Sign Up",
+      "signInHint": "Already have an account? Sign in",
+      "checkEmail": "Please check your email inbox",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "nameRequired": "Please enter your name",
+      "emailRequired": "Please enter your email",
+      "passwordRequired": "Please enter your password",
+      "captchaInvalid": "Captcha verification failed",
+      "captchaError": "Captcha verification error"
+    },
+    "forgotPassword": {
+      "title": "Forgot Password",
+      "email": "Email",
+      "send": "Send reset link",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox",
+      "emailRequired": "Please enter your email"
+    },
+    "resetPassword": {
+      "title": "Reset Password",
+      "password": "Password",
+      "reset": "Reset password",
+      "backToLogin": "Back to login",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password",
+      "minLength": "Password must be at least 8 characters"
+    },
+    "error": {
+      "title": "Oops! Something went wrong!",
+      "tryAgain": "Please try again.",
+      "backToLogin": "Back to login",
+      "checkEmail": "Please check your email inbox"
+    },
+    "common": {
+      "termsOfService": "Terms of Service",
+      "privacyPolicy": "Privacy Policy",
+      "byClickingContinue": "By clicking continue, you agree to our ",
+      "and": " and "
+    }
+  },
+  "PremiumContent": {
+    "title": "Unlock Premium Content",
+    "description": "Subscribe to our Pro plan to access all premium content and exclusive content.",
+    "upgradeCta": "Upgrade Now",
+    "benefit1": "All premium content",
+    "benefit2": "Exclusive content",
+    "benefit3": "Cancel anytime",
+    "signIn": "Sign In",
+    "loginRequired": "Sign in to continue reading",
+    "loginDescription": "This is premium content. Sign in to your account to access the full content.",
+    "checkingAccess": "Checking access...",
+    "loadingContent": "Loading full content..."
+  },
+  "Marketing": {
+    "navbar": {
+      "home": {
+        "title": "Home"
+      },
+      "codes": {
+        "title": "Codes"
+      },
+      "tierList": {
+        "title": "Tier List"
+      },
+      "units": {
+        "title": "Units"
+      },
+      "traits": {
+        "title": "Traits"
+      },
+      "relics": {
+        "title": "Relics"
+      },
+      "guides": {
+        "title": "Guides"
+      },
+      "moreData": {
+        "title": "More",
+        "items": {
+          "zobos": {
+            "title": "Units",
+            "description": "Text-first unit names, roles, rarity, and priority notes."
+          },
+          "cardAlbum": {
+            "title": "Traits",
+            "description": "Trait tiers, best roles, and reroll stop points."
+          },
+          "fishingContest": {
+            "title": "Relics",
+            "description": "Relic sets, slots, effects, and enhance guidance."
+          },
+          "badgeDojo": {
+            "title": "Update 4",
+            "description": "Current update notes, codes, modes, units, and Synchro planning."
+          },
+          "updates": {
+            "title": "Play on Roblox",
+            "description": "Official Roblox experience link and safety notes."
+          },
+          "gameplayIndex": {
+            "title": "Reroll Strategy",
+            "description": "Trait spending rules for DPS, support, and farm units."
+          }
+        }
+      }
+    },
+    "footer": {
+      "tagline": "An independent Universal Tower Defense Z Wiki for codes, unit tiers, traits, relics, update notes, and beginner progression.",
+      "wiki": {
+        "title": "Wiki",
+        "items": {
+          "codes": "Codes",
+          "tierList": "Tier List",
+          "units": "Units",
+          "traits": "Traits",
+          "relics": "Relics"
+        }
+      },
+      "guides": {
+        "title": "Guides",
+        "items": {
+          "all": "All guides",
+          "beginner": "Beginner Guide",
+          "mercilessGod": "Update 4 Units",
+          "updates": "Update 4 Hub"
+        }
+      },
+      "legal": {
+        "title": "Legal",
+        "items": {
+          "privacyPolicy": "Privacy Policy",
+          "termsOfService": "Terms of Service",
+          "cookiePolicy": "Cookie Policy",
+          "disclaimer": "Disclaimer"
+        }
+      }
+    },
+    "avatar": {
+      "history": "History",
+      "billing": "Billing",
+      "credits": "Credits",
+      "settings": "Settings"
+    }
+  },
+  "Dashboard": {
+    "dashboard": {
+      "title": "Dashboard"
+    },
+    "admin": {
+      "title": "Admin",
+      "testCreditPackage": {
+        "title": "Test Credit Package",
+        "description": "Control a single admin-only test credit package for local and production testing.",
+        "loading": "Loading test package...",
+        "save": "Save",
+        "saving": "Saving...",
+        "saved": "Test credit package updated",
+        "errors": {
+          "invalidCredits": "Credits must be greater than 0",
+          "invalidStripePriceId": "Stripe Price ID is required",
+          "saveFailed": "Failed to save test credit package"
+        },
+        "fields": {
+          "enabled": {
+            "label": "Visible to admins",
+            "description": "When enabled, logged-in admins will see this package in credit purchase areas."
+          },
+          "credits": {
+            "label": "Credits",
+            "description": "How many credits the admin receives after a successful purchase."
+          },
+          "stripePriceId": {
+            "label": "Stripe Price ID",
+            "description": "Use a one-time Stripe price. The amount shown on the right is resolved from Stripe."
+          }
+        },
+        "summary": {
+          "title": "Current Config",
+          "description": "This package is always restricted to admin users.",
+          "visible": "Visibility",
+          "adminOnly": "Admin only",
+          "hidden": "Hidden",
+          "credits": "Credits",
+          "price": "Resolved price",
+          "noPrice": "No Stripe price loaded",
+          "currentStripePriceId": "Current Stripe Price ID",
+          "noPriceId": "Not configured",
+          "lastUpdated": "Last updated",
+          "updatedBy": "Updated by",
+          "never": "Never",
+          "unknown": "Unknown"
+        },
+        "preview": {
+          "badge": "Admin Test",
+          "name": "Admin Test Pack",
+          "description": "A hidden one-time credit package visible only to admin accounts.",
+          "purchase": "Purchase",
+          "adminOnly": "Visible to admin accounts only",
+          "credits": "{count} credits",
+          "oneTimePurchase": "One-time Stripe checkout"
+        }
+      },
+      "users": {
+        "title": "Users",
+        "fakeData": "Note: Faked data for demonstration, some features are disabled",
+        "error": "Failed to get users",
+        "search": "Search users...",
+        "noResults": "No users found",
+        "columns": {
+          "columns": "Columns",
+          "name": "Name",
+          "email": "Email",
+          "role": "Role",
+          "createdAt": "Created At",
+          "customerId": "Customer ID",
+          "status": "Status",
+          "banReason": "Ban Reason",
+          "banExpires": "Ban Expires"
+        },
+        "admin": "Admin",
+        "user": "User",
+        "email": {
+          "verified": "Email Verified",
+          "unverified": "Email Unverified"
+        },
+        "emailCopied": "Email copied to clipboard",
+        "banned": "Banned",
+        "active": "Active",
+        "inactive": "Inactive",
+        "clearSearch": "Clear search",
+        "joined": "Joined at",
+        "updated": "Updated at",
+        "loading": "Loading...",
+        "grantCredits": {
+          "currentBalance": "Current balance",
+          "balanceUnit": "credits",
+          "amount": "Grant amount",
+          "reason": "Grant reason",
+          "reasonPlaceholder": "Explain why you are granting credits to this user",
+          "button": "Grant credits",
+          "success": "Credits granted successfully",
+          "error": "Failed to grant credits",
+          "invalidAmount": "Grant amount must be greater than 0",
+          "invalidReason": "Grant reason is required"
+        },
+        "ban": {
+          "reason": "Ban Reason",
+          "reasonPlaceholder": "Enter the reason for banning this user",
+          "defaultReason": "Spamming",
+          "never": "Never",
+          "expires": "Ban Expires",
+          "selectDate": "Select Date",
+          "button": "Ban User",
+          "success": "User has been banned",
+          "error": "Failed to ban user"
+        },
+        "unban": {
+          "button": "Unban User",
+          "success": "User has been unbanned",
+          "error": "Failed to unban user"
+        },
+        "close": "Close"
+      }
+    },
+    "settings": {
+      "title": "Settings",
+      "profile": {
+        "title": "Profile",
+        "description": "Manage your account information",
+        "avatar": {
+          "title": "Avatar",
+          "description": "Click upload button to upload a custom one",
+          "recommendation": "An avatar is optional but strongly recommended",
+          "uploading": "Uploading...",
+          "uploadAvatar": "Upload Avatar",
+          "success": "Avatar updated successfully",
+          "fail": "Failed to update avatar"
+        },
+        "name": {
+          "title": "Name",
+          "description": "Please enter your display name",
+          "placeholder": "Enter your name",
+          "minLength": "Please use 3 characters at minimum",
+          "maxLength": "Please use 30 characters at maximum",
+          "hint": "Please use 3-30 characters for your name",
+          "success": "Name updated successfully",
+          "fail": "Failed to update name",
+          "saving": "Saving...",
+          "save": "Save"
+        }
+      },
+      "billing": {
+        "title": "Billing",
+        "description": "Manage your subscription and billing details",
+        "status": {
+          "active": "Active",
+          "trial": "Trial",
+          "free": "Free",
+          "lifetime": "Lifetime"
+        },
+        "interval": {
+          "month": "month",
+          "year": "year",
+          "oneTime": "one-time"
+        },
+        "currentPlan": {
+          "title": "Current Plan",
+          "description": "Your current plan details",
+          "noPlan": "You have no active plan"
+        },
+        "CustomerPortalButton": {
+          "loading": "Loading...",
+          "createCustomerPortalFailed": "Failed to open Stripe customer portal"
+        },
+        "price": "Price:",
+        "periodStartDate": "Period start date:",
+        "periodEndDate": "Period end date:",
+        "trialEnds": "Trial ends:",
+        "freePlanMessage": "You are currently on the free plan with limited features",
+        "lifetimeMessage": "You have lifetime access to all premium features",
+        "manageSubscription": "Manage Subscription and Billing",
+        "manageBilling": "Manage Billing",
+        "upgradePlan": "Upgrade Plan",
+        "retry": "Retry",
+        "errorMessage": "Failed to get data",
+        "paymentSuccess": "Payment success"
+      },
+      "payment": {
+        "processing": {
+          "title": "Processing Payment",
+          "description": "Please wait while we confirm your payment..."
+        },
+        "success": {
+          "title": "Payment Success",
+          "description": "Redirecting automatically..."
+        },
+        "failed": {
+          "title": "Payment Failed",
+          "description": "There was an issue processing your payment."
+        },
+        "timeout": {
+          "title": "Processing Timeout",
+          "description": "Payment processing is taking longer than expected."
+        },
+        "retry": "Retry"
+      },
+      "credits": {
+        "title": "Credits",
+        "description": "Manage your credit transactions",
+        "tabs": {
+          "balance": "Balance",
+          "transactions": "Transactions"
+        },
+        "balance": {
+          "title": "Credit Balance",
+          "description": "Your credit balance",
+          "credits": "Credits",
+          "creditsDescription": "You have {credits} credits",
+          "creditsExpired": "Credits expired",
+          "creditsAdded": "Credits have been added to your account",
+          "viewTransactions": "View Credit Transactions",
+          "retry": "Retry",
+          "expiringCredits": "{credits} credits expiring in the next {days} days"
+        },
+        "packages": {
+          "title": "Credit Packages",
+          "description": "Purchase additional credits to use our services",
+          "purchase": "Purchase",
+          "processing": "Processing...",
+          "popular": "Most Popular",
+          "completePurchase": "Complete Your Purchase",
+          "failedToFetchCredits": "Failed to fetch credits",
+          "failedToCreatePaymentIntent": "Failed to create payment intent",
+          "failedToInitiatePayment": "Failed to initiate payment",
+          "cancel": "Cancel",
+          "purchaseFailed": "Purchase credits failed",
+          "checkoutFailed": "Failed to create checkout session",
+          "loading": "Loading...",
+          "pay": "Pay"
+        },
+        "transactions": {
+          "title": "Credit Transactions",
+          "error": "Failed to get credit transactions",
+          "search": "Search credit transactions...",
+          "clearSearch": "Clear search",
+          "paymentIdCopied": "Payment ID copied to clipboard",
+          "noResults": "No results found",
+          "columns": {
+            "columns": "Columns",
+            "id": "ID",
+            "type": "Type",
+            "description": "Description",
+            "amount": "Amount",
+            "remainingAmount": "Remaining Amount",
+            "paymentId": "Payment ID",
+            "expirationDate": "Expiration Date",
+            "expirationDateProcessedAt": "Expiration Processed At",
+            "createdAt": "Created At",
+            "updatedAt": "Updated At"
+          },
+          "types": {
+            "MONTHLY_REFRESH": "Monthly Refresh",
+            "REGISTER_GIFT": "Register Gift",
+            "PURCHASE": "Purchased Credits",
+            "ADMIN_GRANT": "Admin Grant",
+            "USAGE": "Consumed Credits",
+            "EXPIRE": "Expired Credits",
+            "SUBSCRIPTION_RENEWAL": "Subscription Renewal",
+            "LIFETIME_MONTHLY": "Lifetime Monthly"
+          },
+          "detailViewer": {
+            "title": "Credit Transaction Detail",
+            "close": "Close"
+          },
+          "expired": "Expired",
+          "never": "Never"
+        }
+      },
+      "notification": {
+        "title": "Notification",
+        "description": "Manage your notification preferences",
+        "newsletter": {
+          "title": "Newsletter Subscription",
+          "description": "Manage your newsletter subscription preferences",
+          "label": "Subscribe to newsletter",
+          "hint": "You can change your subscription preferences at any time",
+          "emailRequired": "Email is required to subscribe to the newsletter",
+          "subscribeSuccess": "Successfully subscribed to the newsletter",
+          "subscribeFail": "Failed to subscribe to the newsletter",
+          "unsubscribeSuccess": "Successfully unsubscribed from the newsletter",
+          "unsubscribeFail": "Failed to unsubscribe from the newsletter",
+          "error": "An error occurred while updating your subscription"
+        }
+      },
+      "history": {
+        "title": "History",
+        "description": "View your activity history"
+      },
+      "security": {
+        "title": "Security",
+        "description": "Manage your security settings",
+        "updatePassword": {
+          "title": "Change Password",
+          "description": "Enter your current password and a new password",
+          "currentPassword": "Current Password",
+          "currentRequired": "Current password is required",
+          "newPassword": "New Password",
+          "newMinLength": "Password must be at least 8 characters",
+          "hint": "Please use at least 8 characters for password",
+          "showPassword": "Show password",
+          "hidePassword": "Hide password",
+          "success": "Password updated successfully",
+          "fail": "Failed to update password",
+          "saving": "Saving...",
+          "save": "Save"
+        },
+        "resetPassword": {
+          "title": "Reset Password",
+          "description": "Reset password to enable email login",
+          "info": "Resetting your password will allow you to sign in using your email and password in addition to your social login methods. You will receive an email with instructions to reset your password",
+          "button": "Reset Password"
+        },
+        "deleteAccount": {
+          "title": "Delete Account",
+          "description": "Permanently remove your account and all of its contents",
+          "warning": "This action is not reversible, so please continue with caution",
+          "button": "Delete Account",
+          "confirmTitle": "Delete Account",
+          "confirmDescription": "Are you sure you want to delete your account? This action cannot be undone.",
+          "confirm": "Delete",
+          "cancel": "Cancel",
+          "deleting": "Deleting...",
+          "success": "Account deleted successfully",
+          "fail": "Failed to delete account"
+        }
+      }
+    },
+    "upgrade": {
+      "title": "Upgrade",
+      "description": "Upgrade to Pro to access all features",
+      "button": "Upgrade"
+    }
+  },
+  "Mail": {
+    "common": {
+      "team": "{name} Team",
+      "copyright": "©️ {year} All Rights Reserved."
+    },
+    "verifyEmail": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to verify your email address.",
+      "confirmEmail": "Confirm email",
+      "subject": "Verify your email"
+    },
+    "forgotPassword": {
+      "title": "Hi, {name}.",
+      "body": "Please click the link below to reset your password.",
+      "resetPassword": "Reset password",
+      "subject": "Reset your password"
+    },
+    "subscribeNewsletter": {
+      "body": "Thank you for subscribing to the newsletter. We will keep you updated with the latest news and updates.",
+      "subject": "Thanks for subscribing"
+    },
+    "contactMessage": {
+      "name": "Name: {name}",
+      "email": "Email: {email}",
+      "message": "Message: {message}",
+      "subject": "Contact Message from Website"
+    }
+  },
+  "Newsletter": {
+    "title": "Newsletter",
+    "subtitle": "Join the community",
+    "description": "Subscribe to our newsletter for the latest news and updates",
+    "form": {
+      "email": "Email",
+      "subscribe": "Subscribe",
+      "subscribing": "Subscribing...",
+      "success": "Subscribed successfully",
+      "fail": "Failed to subscribe",
+      "emailValidation": "Please enter a valid email address"
+    }
+  }
+}
