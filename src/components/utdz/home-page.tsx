@@ -169,6 +169,7 @@ export function UtdzHomePage() {
         thumbnailUrl: [
           `https://i.ytimg.com/vi/${officialGameFacts.officialTrailerId}/hq720.jpg`,
         ],
+        uploadDate: '2026-07-09T02:30:06-07:00',
         embedUrl: `https://www.youtube.com/embed/${officialGameFacts.officialTrailerId}`,
       },
     ],
