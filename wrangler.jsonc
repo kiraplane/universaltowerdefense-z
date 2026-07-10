@@ -5,7 +5,9 @@
   "keep_vars": true,
   "compatibility_date": "2025-04-01",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
-  "vars": {},
+  "vars": {
+    "NEXT_PUBLIC_GOOGLE_ANALYTICS_ID": "G-RQ5LQZFBJT"
+  },
   "routes": [
     {
       "pattern": "universaltowerdefense-z.wiki",
