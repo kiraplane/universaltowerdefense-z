@@ -1,9 +1,55 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-07-11';
+export const CODE_CHECKED_AT = '2026-07-14';
 
 export const codes: GameCode[] = [
+  {
+    code: 'WeLoveYoruichi2!',
+    reward: '250 Trait Rerolls',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-07-14',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.destructoidCodes],
+    notes:
+      'Newest Yoruichi-era code from the July 14 public code pass. Copy the trailing exclamation mark exactly.',
+  },
+  {
+    code: 'WeLoveYoruichi!',
+    reward:
+      'Yoruichi, evolution items, 250 Trait Rerolls, 6 Etherealization Shards, and 5 Summer Crates',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-07-14',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.destructoidCodes],
+    notes:
+      'High-value unit/evolution package from the newest July code refresh. Redeem before spending rerolls or Summer Crates elsewhere.',
+  },
+  {
+    code: 'UTDZApologyForBugs!',
+    reward: '1,500 Trait Rerolls and 1 Boundless Orb',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-07-14',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.destructoidCodes],
+    notes:
+      'Bug-compensation code from the latest UTDZ code surface. The Boundless Orb makes this a priority redeem.',
+  },
+  {
+    code: 'WeLoveUTDZ!',
+    reward:
+      'Fern, Fern evolution items, 12 Mythic Etherealization Shards, and Kenpachi EVO',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-07-14',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.destructoidCodes],
+    notes:
+      'Current high-value UTDZ celebration code. Treat reward text as source-checked until the in-game popup confirms exact item names.',
+  },
   {
     code: 'SrryForWhoopsie!',
     reward: '1 Ruler Ticket',

@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-07-11';
+export const CHECKED_AT = '2026-07-14';
 
 export const sources = {
   roblox: {
@@ -95,15 +95,23 @@ export const sources = {
     type: 'guide_site',
     label: 'Pro Game Guides UTDZ codes',
     url: 'https://progameguides.com/roblox/universal-tower-defense-codes/',
-    checkedAt: '2026-07-11',
+    checkedAt: '2026-07-14',
     confidence: 'medium',
     note: 'Current five-code Update 4.0 snapshot with rewards and inactive archive.',
+  },
+  destructoidCodes: {
+    type: 'guide_site',
+    label: 'Destructoid UTDZ codes',
+    url: 'https://www.destructoid.com/universal-tower-defense-codes/',
+    checkedAt: CHECKED_AT,
+    confidence: 'medium',
+    note: 'July 14 cross-check for Yoruichi-era active codes and reward wording.',
   },
   redditCodes: {
     type: 'community',
     label: 'Current Universal Tower Defense Z code cross-check',
     url: 'https://www.reddit.com/r/RobloxCodesUnite/comments/1urttuu/universal_tower_defense_z_codes_for_roblox/',
-    checkedAt: '2026-07-11',
+    checkedAt: '2026-07-14',
     confidence: 'medium',
     note: 'Secondary spelling cross-check for the new Update 4 codes.',
   },
@@ -147,8 +155,8 @@ export const officialGameFacts = {
   placeId: '133410800847665',
   universeId: '7488190691',
   creatorGroupId: '33861560',
-  activePlayersAtCheck: 61534,
-  visitsAtCheck: 282441992,
+  activePlayersAtCheck: 38209,
+  visitsAtCheck: 292642749,
   maxPlayers: 12,
   icon: '/utdz/icon.png',
   heroImage: '/utdz/media/official-1.png',
