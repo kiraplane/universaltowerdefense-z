@@ -76,16 +76,23 @@ export default function BestTeamPage() {
                 <div>
                   <h3 className="font-semibold">Core</h3>
                   <ul className="mt-2 space-y-2 text-sm text-slate-300">
-                    {team.core.map((slug) => (
-                      <li key={slug}>
-                        <LocaleLink
-                          href={`/units/${slug}`}
-                          className="text-[#F4B942] underline underline-offset-4"
-                        >
-                          {unitBySlug.get(slug) ?? slug}
-                        </LocaleLink>
-                      </li>
-                    ))}
+                    {team.core.map((slug) => {
+                      const unitName = unitBySlug.get(slug);
+                      return (
+                        <li key={slug}>
+                          {unitName ? (
+                            <LocaleLink
+                              href={`/units/${slug}`}
+                              className="text-[#F4B942] underline underline-offset-4"
+                            >
+                              {unitName}
+                            </LocaleLink>
+                          ) : (
+                            <span className="text-[#F4B942]">{slug}</span>
+                          )}
+                        </li>
+                      );
+                    })}
                   </ul>
                 </div>
                 <div>

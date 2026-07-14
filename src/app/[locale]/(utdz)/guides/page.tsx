@@ -1,9 +1,11 @@
 import Container from '@/components/layout/container';
+import { LocalizedCorePage } from '@/components/utdz/localized-core-page';
 import { JsonLd } from '@/components/seo/json-ld';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { FaqSection } from '@/components/utdz/faq-section';
 import { guides } from '@/data/utdz/guides';
+import { getLocalizedCoreCopy } from '@/data/utdz/localized-core';
 import { officialGameFacts } from '@/data/utdz/sources';
 import { LocaleLink } from '@/i18n/navigation';
 import { constructMetadata } from '@/lib/metadata';
@@ -17,16 +19,26 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const localized = getLocalizedCoreCopy(locale, 'guides');
   return constructMetadata({
-    title: 'Universal Tower Defense Z Guides - Codes, Units, Traits and Events',
+    title:
+      localized?.title ??
+      'Universal Tower Defense Z Guides - Codes, Units, Traits and Events',
     description:
+      localized?.description ??
       'Universal Tower Defense Z guides for Update 4, beginner progression, new units, Spider Extraction, Synchros, traits, relics, teams, and active codes.',
     locale,
     pathname: '/guides',
   });
 }
 
-export default function GuidesPage() {
+export default async function GuidesPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
+  if (locale !== 'en') return <LocalizedCorePage locale={locale} pageKey="guides" />;
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'ItemList',

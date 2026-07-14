@@ -41,6 +41,26 @@ export default function TraitsPage() {
 
         <section className="rounded-lg border border-[#322123] bg-[#151011] p-6 shadow-sm">
           <h2 className="font-display text-2xl font-bold text-white">
+            Update 4 reroll order
+          </h2>
+          <div className="mt-4 grid gap-3 text-sm leading-6 text-[#B8AAA5] md:grid-cols-3">
+            <p>
+              1. Finish the obtainable form and evolution route before rolling
+              Yhwach, Ichigo, Yamamoto, Asura, Rukia, Gremmy, or Yoruichi.
+            </p>
+            <p>
+              2. Roll the main carry first; practical control on Rukia-style
+              support is enough while damage slots are unfinished.
+            </p>
+            <p>
+              3. Keep current Yoruichi-era code rerolls in reserve until the
+              unit changes a measured story, event, or boss clear.
+            </p>
+          </div>
+        </section>
+
+        <section className="rounded-lg border border-[#322123] bg-[#151011] p-6 shadow-sm">
+          <h2 className="font-display text-2xl font-bold text-white">
             Trait reroll stop rules
           </h2>
           <div className="mt-4 grid gap-3 text-sm leading-6 text-[#B8AAA5] md:grid-cols-3">

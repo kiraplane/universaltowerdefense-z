@@ -63,6 +63,26 @@ export const websiteConfig: WebsiteConfig = {
         name: 'English',
         hreflang: 'en-US',
       },
+      'pt-br': {
+        flag: '🇧🇷',
+        name: 'Português (Brasil)',
+        hreflang: 'pt-BR',
+      },
+      th: {
+        flag: '🇹🇭',
+        name: 'ไทย',
+        hreflang: 'th-TH',
+      },
+      vi: {
+        flag: '🇻🇳',
+        name: 'Tiếng Việt',
+        hreflang: 'vi-VN',
+      },
+      id: {
+        flag: '🇮🇩',
+        name: 'Bahasa Indonesia',
+        hreflang: 'id-ID',
+      },
     },
   },
   blog: {

@@ -1,9 +1,11 @@
 import Container from '@/components/layout/container';
+import { LocalizedCorePage } from '@/components/utdz/localized-core-page';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { CodeCopyButton } from '@/components/utdz/code-copy-button';
 import { FaqSection } from '@/components/utdz/faq-section';
 import { activeCodes, expiredCodes } from '@/data/utdz/codes';
+import { getLocalizedCoreCopy } from '@/data/utdz/localized-core';
 import { LocaleLink } from '@/i18n/navigation';
 import { constructMetadata } from '@/lib/metadata';
 import type { Metadata } from 'next';
@@ -15,9 +17,13 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const localized = getLocalizedCoreCopy(locale, 'codes');
   return constructMetadata({
-    title: 'Universal Tower Defense Z Codes - Update 4 Active Codes',
+    title:
+      localized?.title ??
+      'Universal Tower Defense Z Codes - Update 4 Active Codes',
     description:
+      localized?.description ??
       'Copy five active UTDZ Update 4 codes for a Ruler Ticket, Trait Rerolls, Gems, Universal Gems, and Summer Currency.',
     locale,
     pathname: '/codes',
@@ -72,7 +78,13 @@ function CodesTable({
   );
 }
 
-export default function CodesPage() {
+export default async function CodesPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
+  if (locale !== 'en') return <LocalizedCorePage locale={locale} pageKey="codes" />;
   return (
     <div className="bg-[#080607] py-12 text-[#F8FAFC]">
       <Container className="space-y-8 px-4">

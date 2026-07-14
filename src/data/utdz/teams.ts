@@ -2,6 +2,20 @@ import type { TeamBuild } from './types';
 
 export const teams: TeamBuild[] = [
   {
+    id: 'update-4-meta-watch',
+    name: 'Update 4 Meta Watch Core',
+    purpose: 'Current-version role coverage',
+    core: ['Yhwach or Ichigo carry', 'Rukia control', 'Yamamoto boss pressure'],
+    substitutes: [
+      'Yoruichi when the event route is completed',
+      'Gremmy when utility changes the target mode',
+      'Any established S-tier carry with better traits and relics',
+    ],
+    notes:
+      'This is a role template, not a fixed six-unit answer. Keep one carry, one control slot, and one boss-pressure slot, then fill economy and support from units you can actually finish.',
+    confidence: 'needs_verification',
+  },
+  {
     id: 'universal-fest-carry-core',
     name: 'Late-X Carry Baseline',
     purpose: 'Transition comparison',

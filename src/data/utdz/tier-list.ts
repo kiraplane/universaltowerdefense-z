@@ -1,6 +1,51 @@
 import { sources } from './sources';
 import type { TierEntry } from './types';
 
+export const updateFourMetaWatch = [
+  {
+    name: 'Yhwach',
+    role: 'Premium carry / late-wave pressure',
+    decision:
+      'Compare the evolved form and live placement limits before replacing an already-built Boundless carry.',
+  },
+  {
+    name: 'Ichigo',
+    role: 'Main damage / progression carry',
+    decision:
+      'Use current obtainment and evolution requirements as the gate; do not spend rerolls before the final form is reachable.',
+  },
+  {
+    name: 'Gremmy',
+    role: 'Utility damage / control watch',
+    decision:
+      'Test whether the utility changes a real mode clear before treating the unit as a universal S-tier slot.',
+  },
+  {
+    name: 'Yamamoto',
+    role: 'Boss and burn-pressure watch',
+    decision:
+      'Prioritize only when the account needs sustained boss pressure and can complete the current upgrade route.',
+  },
+  {
+    name: 'Asura',
+    role: 'High-investment damage watch',
+    decision:
+      'Keep on the build-next list until trait, relic, and team support costs are clear in the live client.',
+  },
+  {
+    name: 'Rukia',
+    role: 'Control / freeze support watch',
+    decision:
+      'Value the control slot by mode coverage, not raw rarity; keep the carry slot funded first.',
+  },
+  {
+    name: 'Yoruichi',
+    role: 'Update 4 event unit / speed utility',
+    decision:
+      'Claim current Yoruichi-era codes first, then confirm the event and evolution route before committing premium materials.',
+  },
+] as const;
+
 export const tierEntries: TierEntry[] = [
   {
     unitSlug: 'merciless-god',

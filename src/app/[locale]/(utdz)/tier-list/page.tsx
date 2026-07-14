@@ -1,8 +1,13 @@
 import Container from '@/components/layout/container';
+import { LocalizedCorePage } from '@/components/utdz/localized-core-page';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { FaqSection } from '@/components/utdz/faq-section';
-import { tierEntries } from '@/data/utdz/tier-list';
+import {
+  tierEntries,
+  updateFourMetaWatch,
+} from '@/data/utdz/tier-list';
+import { getLocalizedCoreCopy } from '@/data/utdz/localized-core';
 import type { Unit, UnitTier } from '@/data/utdz/types';
 import { units } from '@/data/utdz/units';
 import { LocaleLink } from '@/i18n/navigation';
@@ -33,9 +38,13 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const localized = getLocalizedCoreCopy(locale, 'tier-list');
   return constructMetadata({
-    title: 'Universal Tower Defense Z Tier List - Update 4 Transition',
+    title:
+      localized?.title ??
+      'Universal Tower Defense Z Tier List - Update 4 Transition',
     description:
+      localized?.description ??
       'UTDZ tier list transition guide for established units, roles, traits, relics, synchros, and Update 4 units still awaiting stable rankings.',
     locale,
     pathname: '/tier-list',
@@ -50,7 +59,15 @@ function getReason(unit: Unit) {
   );
 }
 
-export default function TierListPage() {
+export default async function TierListPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
+  if (locale !== 'en') {
+    return <LocalizedCorePage locale={locale} pageKey="tier-list" />;
+  }
   return (
     <div className="bg-[#080607] py-12 text-[#F8FAFC]">
       <Container className="space-y-8 px-4">
@@ -95,6 +112,37 @@ export default function TierListPage() {
                 Update 4 synchros
               </LocaleLink>
             </Button>
+          </div>
+        </section>
+
+        <section className="rounded-lg border border-[#322123] bg-[#151011] p-6 shadow-sm">
+          <Badge className="bg-[#E23A2E] text-white">Current meta watch</Badge>
+          <h2 className="mt-4 font-display text-2xl font-bold text-white">
+            Update 4 units to verify before rerolling
+          </h2>
+          <p className="mt-3 max-w-3xl text-sm leading-7 text-[#B8AAA5]">
+            Current competitor tier coverage repeatedly surfaces these names,
+            but public stat tables are not stable enough to invent exact DPS.
+            Use the role and spend decision below, then confirm the live form,
+            evolution, placement limit, trait, and relic fit in game.
+          </p>
+          <div className="mt-5 grid gap-4 md:grid-cols-2">
+            {updateFourMetaWatch.map((unit) => (
+              <article
+                key={unit.name}
+                className="rounded-lg border border-[#322123] bg-[#080607] p-4"
+              >
+                <h3 className="font-display text-xl font-bold text-white">
+                  {unit.name}
+                </h3>
+                <p className="mt-2 text-sm font-semibold text-[#E8B25C]">
+                  {unit.role}
+                </p>
+                <p className="mt-3 text-sm leading-6 text-[#B8AAA5]">
+                  {unit.decision}
+                </p>
+              </article>
+            ))}
           </div>
         </section>
 

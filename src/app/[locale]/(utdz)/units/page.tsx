@@ -1,7 +1,10 @@
 import Container from '@/components/layout/container';
+import { LocalizedCorePage } from '@/components/utdz/localized-core-page';
 import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { UnitsBrowser } from '@/components/utdz/units-browser';
+import { updateFourMetaWatch } from '@/data/utdz/tier-list';
+import { getLocalizedCoreCopy } from '@/data/utdz/localized-core';
 import { units } from '@/data/utdz/units';
 import { LocaleLink } from '@/i18n/navigation';
 import { constructMetadata } from '@/lib/metadata';
@@ -14,16 +17,26 @@ export async function generateMetadata({
   params: Promise<{ locale: Locale }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const localized = getLocalizedCoreCopy(locale, 'units');
   return constructMetadata({
-    title: 'Universal Tower Defense Z Units - Roles, Traits and Builds',
+    title:
+      localized?.title ??
+      'Universal Tower Defense Z Units - Roles, Traits and Builds',
     description:
+      localized?.description ??
       'Browse selected UTDZ units by role, tier, traits, relics, placement, and build priority, plus the current Update 4 new-unit watch route.',
     locale,
     pathname: '/units',
   });
 }
 
-export default function UnitsPage() {
+export default async function UnitsPage({
+  params,
+}: {
+  params: Promise<{ locale: Locale }>;
+}) {
+  const { locale } = await params;
+  if (locale !== 'en') return <LocalizedCorePage locale={locale} pageKey="units" />;
   const roleCount = new Set(units.map((unit) => unit.role)).size;
   const rarityCount = new Set(units.map((unit) => unit.rarity)).size;
   const tierCount = new Set(units.map((unit) => unit.tier)).size;
@@ -74,6 +87,34 @@ export default function UnitsPage() {
             </Button>
           </div>
         </header>
+
+        <section className="rounded-lg border border-[#322123] bg-[#151011] p-6 shadow-sm">
+          <h2 className="font-display text-2xl font-bold text-white">
+            Update 4 acquisition watchlist
+          </h2>
+          <p className="mt-3 max-w-3xl text-sm leading-7 text-[#B8AAA5]">
+            These current names stay outside the permanent stat browser until
+            their live forms, evolutions, and placement limits can be checked.
+            Use the list to choose a route without mistaking an incomplete
+            public table for final unit math.
+          </p>
+          <div className="mt-5 grid gap-3 md:grid-cols-2">
+            {updateFourMetaWatch.map((unit) => (
+              <article
+                key={unit.name}
+                className="rounded-lg border border-[#322123] bg-[#080607] p-4"
+              >
+                <h3 className="font-display text-lg font-bold text-white">
+                  {unit.name}
+                </h3>
+                <p className="mt-2 text-sm text-[#E8B25C]">{unit.role}</p>
+                <p className="mt-2 text-sm leading-6 text-[#B8AAA5]">
+                  {unit.decision}
+                </p>
+              </article>
+            ))}
+          </div>
+        </section>
 
         <UnitsBrowser units={units} />
 

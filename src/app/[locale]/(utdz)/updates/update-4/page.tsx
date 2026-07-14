@@ -253,6 +253,25 @@ export default function UpdateFourPage() {
           </section>
           <section>
             <h2 className="font-display text-2xl font-bold text-white">
+              Current Update 4 meta names
+            </h2>
+            <div className="mt-3 space-y-4 text-[#D8CCC7] leading-8">
+              <p>
+                Current tier and guide coverage repeatedly points to Yhwach,
+                Ichigo, Gremmy, Yamamoto, Asura, Rukia, and Yoruichi. Treat
+                those names as acquisition and testing priorities, not as a
+                promise that every new unit replaces an upgraded older carry.
+              </p>
+              <p>
+                Check the live evolution path, placement limit, trait, relic,
+                and team role before spending. The tier list and units pages
+                keep these names in a separate Update 4 watch layer until
+                stable stat evidence supports permanent profiles.
+              </p>
+            </div>
+          </section>
+          <section>
+            <h2 className="font-display text-2xl font-bold text-white">
               Treat exact values as live data
             </h2>
             <div className="mt-3 space-y-4 text-[#D8CCC7] leading-8">
