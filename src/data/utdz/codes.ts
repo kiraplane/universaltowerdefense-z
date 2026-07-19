@@ -1,7 +1,7 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-07-14';
+export const CODE_CHECKED_AT = '2026-07-17';
 
 export const codes: GameCode[] = [
   {
@@ -63,12 +63,13 @@ export const codes: GameCode[] = [
   {
     code: 'TheGuyFromSmash!',
     reward: '50 Trait Rerolls and 100,000 Universal Gems Part 2',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes],
-    notes: 'Current Update 4 code. Preserve capitalization and punctuation.',
+    notes:
+      'Moved to inactive after the July 17 check against the current seven-code Update 4 list.',
   },
   {
     code: 'SpectacularSpider!',
@@ -94,13 +95,13 @@ export const codes: GameCode[] = [
   {
     code: 'Summer2026!',
     reward: '50 Trait Rerolls and 10,000 Summer Currency',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes],
     notes:
-      'Current Summer Event code. Spend Summer Currency only after checking the live event shop.',
+      'Moved to inactive after the July 17 check against the current seven-code Update 4 list.',
   },
   {
     code: 'UTDPhase3!',
