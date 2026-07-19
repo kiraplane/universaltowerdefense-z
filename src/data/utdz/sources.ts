@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-07-17';
+export const CHECKED_AT = '2026-07-19';
 
 export const sources = {
   roblox: {
@@ -95,7 +95,7 @@ export const sources = {
     type: 'guide_site',
     label: 'Pro Game Guides UTDZ codes',
     url: 'https://progameguides.com/roblox/universal-tower-defense-codes/',
-    checkedAt: '2026-07-14',
+    checkedAt: '2026-07-19',
     confidence: 'medium',
     note: 'Current five-code Update 4.0 snapshot with rewards and inactive archive.',
   },
@@ -111,7 +111,7 @@ export const sources = {
     type: 'community',
     label: 'Current Universal Tower Defense Z code cross-check',
     url: 'https://www.reddit.com/r/RobloxCodesUnite/comments/1urttuu/universal_tower_defense_z_codes_for_roblox/',
-    checkedAt: '2026-07-14',
+    checkedAt: '2026-07-19',
     confidence: 'medium',
     note: 'Secondary spelling cross-check for the new Update 4 codes.',
   },
