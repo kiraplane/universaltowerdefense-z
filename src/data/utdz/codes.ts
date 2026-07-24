@@ -1,9 +1,42 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-07-21';
+export const CODE_CHECKED_AT = '2026-07-24';
 
 export const codes: GameCode[] = [
+  {
+    code: 'Football11!',
+    reward: '100 Trait Rerolls, 20,000 Gems, 100,000 Gold',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-07-22',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.proGameGuidesCodes],
+    notes:
+      'Newest football-event code in the July 23 active list. Copy the trailing exclamation mark exactly.',
+  },
+  {
+    code: 'UniversalFootball!',
+    reward:
+      '25 Trait Rerolls, 25 Relic Rerolls, 25 Stat Rerolls, 25 Stat Locks, and 100,000 Universal Gems Season 1 Part 2',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-07-22',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.proGameGuidesCodes],
+    notes:
+      'Football-event progression package from the current ten-code active list.',
+  },
+  {
+    code: 'NewBlitzPass!',
+    reward: '50 Trait Rerolls and 5,000 Gems',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-07-22',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.proGameGuidesCodes],
+    notes: 'Blitz Pass launch code from the July 23 active list.',
+  },
   {
     code: 'WeLoveYoruichi2!',
     reward: '250 Trait Rerolls',
