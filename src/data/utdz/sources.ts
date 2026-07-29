@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-07-24';
+export const CHECKED_AT = '2026-07-29';
 
 export const sources = {
   roblox: {
@@ -95,7 +95,7 @@ export const sources = {
     type: 'guide_site',
     label: 'Pro Game Guides UTDZ codes',
     url: 'https://progameguides.com/roblox/universal-tower-defense-codes/',
-    checkedAt: '2026-07-24',
+    checkedAt: '2026-07-29',
     confidence: 'medium',
     note: 'Current five-code Update 4.0 snapshot with rewards and inactive archive.',
   },
@@ -111,7 +111,7 @@ export const sources = {
     type: 'community',
     label: 'Current Universal Tower Defense Z code cross-check',
     url: 'https://www.reddit.com/r/RobloxCodesUnite/comments/1urttuu/universal_tower_defense_z_codes_for_roblox/',
-    checkedAt: '2026-07-24',
+    checkedAt: '2026-07-29',
     confidence: 'medium',
     note: 'Secondary spelling cross-check for the new Update 4 codes.',
   },
@@ -151,12 +151,12 @@ export const officialGameFacts = {
   creatorGroupUrl:
     'https://www.roblox.com/communities/33861560/Universal-Tower-Defense-UTD',
   canonicalUrl: 'https://www.universaltowerdefense-z.wiki',
-  currentUpdate: 'Update 4.0 — UTDZ',
+  currentUpdate: 'Update 4.25 — Football event',
   placeId: '133410800847665',
   universeId: '7488190691',
   creatorGroupId: '33861560',
-  activePlayersAtCheck: 38209,
-  visitsAtCheck: 292642749,
+  activePlayersAtCheck: 3292,
+  visitsAtCheck: 301777844,
   maxPlayers: 12,
   icon: '/utdz/icon.png',
   heroImage: '/utdz/media/official-1.png',

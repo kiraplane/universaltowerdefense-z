@@ -1,7 +1,7 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-07-24';
+export const CODE_CHECKED_AT = '2026-07-29';
 
 export const codes: GameCode[] = [
   {
