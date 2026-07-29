@@ -2,6 +2,114 @@ import type { Guide } from './types';
 
 export const guides: Guide[] = [
   {
+    slug: 'zero-mortal-plan-guide',
+    title: 'Zero Mortal Plan Event Guide',
+    seoTitle: 'Zero Mortal Plan Guide - Universal Tower Defense Z Event Teams',
+    seoDescription:
+      'Prepare for the UTDZ Zero Mortal Plan event with a practical carry, boss damage, support, control, economy, and retry plan.',
+    summary:
+      'Build the Zero Mortal Plan run around one wave-clear carry, one boss answer, and support slots that fix the exact point where the event defeats you.',
+    category: 'Boss / Raid',
+    sourceStrategy: 'manual_data',
+    videoSearchQueries: [
+      'Universal Tower Defense Z Zero Mortal Plan guide',
+      'UTDZ Zero Mortal Plan event',
+      'UTDZ Zero Mortal Plan team',
+    ],
+    sourceNotes:
+      'The event route and player intent were checked against current UTDZ event coverage. Exact boss HP and reward counts are intentionally left to the live event panel because public copies conflict.',
+    coverImageUrl: '/utdz/media/official-1.png',
+    tags: ['Zero Mortal Plan', 'Event', 'Boss'],
+    difficulty: 'Advanced',
+    relatedRoutes: [
+      '/best-team',
+      '/tier-list',
+      '/units',
+      '/traits',
+      '/relics',
+      '/codes',
+    ],
+    body: [
+      {
+        heading: 'Confirm the live event before building',
+        paragraphs: [
+          'Open the event panel and read the current entry item, difficulty, rewards, and modifiers before spending resources. Zero Mortal Plan has appeared as a named UTDZ event, but public copies disagree on exact boss health and mechanical thresholds. The live panel is the number source that matters for your run.',
+          'If the event is unavailable, check the current server version and the Updates page. Do not use an old portal, key, or reward instruction without seeing the same requirement in the live UI.',
+        ],
+      },
+      {
+        heading: 'Use a five-job team instead of five damage units',
+        paragraphs: [
+          'The event asks for both wave control and a boss finish. Build around jobs so every slot has a reason to exist. One unit can cover more than one job, but every job must be represented before you chase perfect traits.',
+        ],
+        bullets: [
+          'Wave-clear carry: removes regular enemies before they create upgrade pressure.',
+          'Boss damage: saves its strongest scaling for the event target.',
+          'Support: increases damage, range, cooldown, or another team-wide output.',
+          'Control: buys time when dense waves or fast enemies reach the end.',
+          'Economy or flex: funds the build, then yields to a second support or damage slot when the map allows it.',
+        ],
+      },
+      {
+        heading: 'Early waves: protect the upgrade curve',
+        paragraphs: [
+          'Place the minimum damage needed to stabilize the first waves, then fund the main carry. Spreading upgrades across several units creates a team that looks complete but reaches no meaningful breakpoint.',
+          'Put damage where enemies remain in range the longest. If the map turns or overlaps paths, use that area before committing a second attacker. Add control only when it changes how long the carry can attack.',
+        ],
+        bullets: [
+          'Start with one reliable placement, not a full board.',
+          'Upgrade the carry until normal waves stop threatening the base.',
+          'Add support after the carry can use the support effect.',
+          'Save enough economy to pivot into boss damage before the final pressure.',
+        ],
+      },
+      {
+        heading: 'Boss phase: stop buying comfort',
+        paragraphs: [
+          'When the event target becomes the only real threat, stop investing in units that only improve cleared waves. Direct upgrades toward the boss unit, the support that amplifies it, and control that adds meaningful attack time.',
+          'If the boss survives with a small amount of health, the team likely needs more single-target output or better upgrade timing. If regular enemies leak before the boss is vulnerable, the wave-clear package is underbuilt. Those are different failures and should not receive the same fix.',
+        ],
+      },
+      {
+        heading: 'Traits and relics follow the job',
+        paragraphs: [
+          'Damage traits belong on the carry or boss unit that receives most of the upgrades. Support and control units should prioritize effects that improve their real uptime or team contribution. Do not copy a damage build onto a unit that never receives enough money to deal meaningful damage.',
+          'Relics should reinforce the same plan. Finish one functional set on the main investment before distributing partial upgrades across the roster.',
+        ],
+      },
+      {
+        heading: 'Retry checklist',
+        paragraphs: [
+          'Change one layer per attempt and note the wave or boss phase where the result changes. This prevents a lucky clear from hiding a weak setup and makes the next difficulty easier to diagnose.',
+        ],
+        bullets: [
+          'Leaking early: move the first placement or improve wave clear.',
+          'Economy collapses: delay optional units and reduce split upgrades.',
+          'Boss times out: add single-target damage or move money away from wave-only units.',
+          'Damage varies too much: improve support uptime and trait consistency.',
+          'Entry fails: recheck the current event requirement and server version.',
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: 'What team should I use for Zero Mortal Plan?',
+        answer:
+          'Use one wave-clear carry, one boss answer, one support, one control unit, and an economy or flex slot. Substitute by job rather than copying names you do not own.',
+      },
+      {
+        question: 'Why does my team clear waves but fail the boss?',
+        answer:
+          'Too much of the budget is probably tied to wave-only damage. Redirect late upgrades to the boss unit and the support that amplifies it.',
+      },
+      {
+        question: 'Where can I verify the event rewards?',
+        answer:
+          'Use the live in-game event panel. Public guides conflict on exact values, while the current server UI reflects the active event build.',
+      },
+    ],
+  },
+  {
     slug: 'beginner-guide',
     title: 'Universal Tower Defense Z Beginner Guide',
     seoTitle: 'Universal Tower Defense Z Beginner Guide - Start Strong in UTDZ',
