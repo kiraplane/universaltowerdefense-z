@@ -25,7 +25,7 @@ const coreRoutes = [
 const guideRoutes = guides.map((guide) => `/guides/${guide.slug}`);
 const unitRoutes = units.map((unit) => `/units/${unit.slug}`);
 const archiveRoutes = ['/updates/universal-fest-p2'];
-const stableLastModified = new Date('2026-08-01T00:00:00.000Z');
+const stableLastModified = new Date('2026-08-03T00:00:00.000Z');
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const sitemapList: MetadataRoute.Sitemap = [];
