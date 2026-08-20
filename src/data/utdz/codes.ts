@@ -1,7 +1,7 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-08-17';
+export const CODE_CHECKED_AT = '2026-08-20';
 
 export const codes: GameCode[] = [
   {
@@ -96,13 +96,13 @@ export const codes: GameCode[] = [
   {
     code: 'TheGuyFromSmash!',
     reward: '50 Trait Rerolls and 100,000 Universal Gems Part 2',
-    status: 'expired',
+    status: 'working',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
-    sources: [sources.proGameGuidesCodes, sources.redditCodes],
+    sources: [sources.proGameGuidesCodes, sources.redditCodes, sources.allThingsHowCodes],
     notes:
-      'Moved to inactive after the July 17 check against the current seven-code Update 4 list.',
+      'Restored to working after the August 17 current-code list included it again.',
   },
   {
     code: 'SpectacularSpider!',
@@ -128,13 +128,24 @@ export const codes: GameCode[] = [
   {
     code: 'Summer2026!',
     reward: '50 Trait Rerolls and 10,000 Summer Currency',
-    status: 'expired',
+    status: 'working',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
-    sources: [sources.proGameGuidesCodes, sources.redditCodes],
+    sources: [sources.proGameGuidesCodes, sources.redditCodes, sources.allThingsHowCodes],
     notes:
-      'Moved to inactive after the July 17 check against the current seven-code Update 4 list.',
+      'Restored to working after the August 17 current-code list included the summer currency code again.',
+  },
+  {
+    code: 'ReaperVsHollowDestroyers',
+    reward: '50 Trait Rerolls and 10,000 Gems',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-08',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.allThingsHowCodes],
+    notes:
+      'Current source lists this singular Reaper spelling separately from ReapersVsHollowDestroyers. Try both exact strings.',
   },
   {
     code: 'UTDPhase3!',
