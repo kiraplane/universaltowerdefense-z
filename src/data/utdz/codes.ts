@@ -1,75 +1,74 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-08-24';
+export const CODE_CHECKED_AT = '2026-09-07';
 
 export const codes: GameCode[] = [
   {
     code: 'Football11!',
     reward: '100 Trait Rerolls, 20,000 Gems, 100,000 Gold',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-22',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes],
-    notes:
-      'Newest football-event code in the July 23 active list. Copy the trailing exclamation mark exactly.',
+    notes: 'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'UniversalFootball!',
     reward:
       '25 Trait Rerolls, 25 Relic Rerolls, 25 Stat Rerolls, 25 Stat Locks, and 100,000 Universal Gems Season 1 Part 2',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-22',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes],
     notes:
-      'Football-event progression package from the current ten-code active list.',
+      'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'NewBlitzPass!',
     reward: '50 Trait Rerolls and 5,000 Gems',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-22',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes],
-    notes: 'Blitz Pass launch code from the July 23 active list.',
+    notes: 'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'WeLoveYoruichi2!',
     reward: '250 Trait Rerolls',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-14',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.destructoidCodes],
     notes:
-      'Newest Yoruichi-era code from the July 14 public code pass. Copy the trailing exclamation mark exactly.',
+      'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'WeLoveYoruichi!',
     reward:
       'Yoruichi, evolution items, 250 Trait Rerolls, 6 Etherealization Shards, and 5 Summer Crates',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-14',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.destructoidCodes],
     notes:
-      'High-value unit/evolution package from the newest July code refresh. Redeem before spending rerolls or Summer Crates elsewhere.',
+      'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'UTDZApologyForBugs!',
     reward: '1,500 Trait Rerolls and 1 Boundless Orb',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-14',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.destructoidCodes],
     notes:
-      'Bug-compensation code from the latest UTDZ code surface. The Boundless Orb makes this a priority redeem.',
+      'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'WeLoveUTDZ!',
@@ -81,17 +80,17 @@ export const codes: GameCode[] = [
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.destructoidCodes],
     notes:
-      'Current high-value UTDZ celebration code. Treat reward text as source-checked until the in-game popup confirms exact item names.',
+      'Permanent level-5 code retained as active by GamesRadar, SuperCheats, Raretip, and Destructoid in September.',
   },
   {
     code: 'SrryForWhoopsie!',
     reward: '1 Ruler Ticket',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes],
-    notes: 'Newest code in the July 9 Update 4.0 snapshot.',
+    notes: 'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'TheGuyFromSmash!',
@@ -102,28 +101,27 @@ export const codes: GameCode[] = [
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes, sources.allThingsHowCodes],
     notes:
-      'Restored to working after the August 17 current-code list included it again.',
+      'Retained by a current September 3 tracker, but not by every September source. Try after the permanent code.',
   },
   {
     code: 'SpectacularSpider!',
     reward: '50 Trait Rerolls and 100,000 Universal Gems',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes],
-    notes: 'Current Spider-themed Update 4 code.',
+    notes: 'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'ReapersVsHollowDestroyers',
     reward: '50 Trait Rerolls and 10,000 Gems',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes],
-    notes:
-      'Use the plural Reapers spelling from the strongest current source overlap.',
+    notes: 'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'Summer2026!',
@@ -134,18 +132,18 @@ export const codes: GameCode[] = [
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes, sources.allThingsHowCodes],
     notes:
-      'Restored to working after the August 17 current-code list included the summer currency code again.',
+      'Retained by a current September 3 tracker, but not by every September source. Try after the permanent code.',
   },
   {
     code: 'ReaperVsHollowDestroyers',
     reward: '50 Trait Rerolls and 10,000 Gems',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-08',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.allThingsHowCodes],
     notes:
-      'Current source lists this singular Reaper spelling separately from ReapersVsHollowDestroyers. Try both exact strings.',
+      'Moved to expired after the September 1 multi-source refresh.',
   },
   {
     code: 'UTDPhase3!',
