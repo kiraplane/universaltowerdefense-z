@@ -1,9 +1,20 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-09-07';
+export const CODE_CHECKED_AT = '2026-09-15';
 
 export const codes: GameCode[] = [
+  {
+    code: 'DemonicCyborgEvolved',
+    reward: '5,000 Gems and 25 Trait Rerolls',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-09',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.robloxDenCodes],
+    notes:
+      'Newest September code in the current tracker. Copy the mixed-case string exactly and try it before older event codes.',
+  },
   {
     code: 'Football11!',
     reward: '100 Trait Rerolls, 20,000 Gems, 100,000 Gold',
@@ -74,7 +85,7 @@ export const codes: GameCode[] = [
     code: 'WeLoveUTDZ!',
     reward:
       'Fern, Fern evolution items, 12 Mythic Etherealization Shards, and Kenpachi EVO',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-14',
     lastChecked: CODE_CHECKED_AT,
@@ -101,7 +112,7 @@ export const codes: GameCode[] = [
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes, sources.allThingsHowCodes],
     notes:
-      'Retained by a current September 3 tracker, but not by every September source. Try after the permanent code.',
+      'Moved out of the current table after the September 15 source check retained only DemonicCyborgEvolved and WeLoveUTDZ!.',
   },
   {
     code: 'SpectacularSpider!',
@@ -126,13 +137,13 @@ export const codes: GameCode[] = [
   {
     code: 'Summer2026!',
     reward: '50 Trait Rerolls and 10,000 Summer Currency',
-    status: 'working',
+    status: 'expired',
     event: 'general',
     firstSeen: '2026-07-09',
     lastChecked: CODE_CHECKED_AT,
     sources: [sources.proGameGuidesCodes, sources.redditCodes, sources.allThingsHowCodes],
     notes:
-      'Retained by a current September 3 tracker, but not by every September source. Try after the permanent code.',
+      'Moved out of the current table after the September 15 source check no longer retained this summer event code.',
   },
   {
     code: 'ReaperVsHollowDestroyers',

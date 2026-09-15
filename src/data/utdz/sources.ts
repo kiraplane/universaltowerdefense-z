@@ -1,6 +1,6 @@
 import type { DataSource } from './types';
 
-export const CHECKED_AT = '2026-09-07';
+export const CHECKED_AT = '2026-09-15';
 
 export const sources = {
   roblox: {
@@ -95,7 +95,7 @@ export const sources = {
     type: 'guide_site',
     label: 'Pro Game Guides UTDZ codes',
     url: 'https://progameguides.com/roblox/universal-tower-defense-codes/',
-    checkedAt: '2026-09-07',
+    checkedAt: '2026-09-15',
     confidence: 'medium',
     note: 'Current five-code Update 4.0 snapshot with rewards and inactive archive.',
   },
@@ -106,6 +106,14 @@ export const sources = {
     checkedAt: CHECKED_AT,
     confidence: 'medium',
     note: 'Rechecked August 20, 2026. Used for the August 17 working list and current 4.25-era reward text.',
+  },
+  robloxDenCodes: {
+    type: 'guide_site',
+    label: 'RobloxDen UTDZ codes',
+    url: 'https://robloxden.com/game-codes/universal-tower-defense',
+    checkedAt: CHECKED_AT,
+    confidence: 'medium',
+    note: 'September 15 current-code cross-check for DemonicCyborgEvolved and the permanent WeLoveUTDZ! code.',
   },
   destructoidCodes: {
     type: 'guide_site',
@@ -119,7 +127,7 @@ export const sources = {
     type: 'community',
     label: 'Current Universal Tower Defense Z code cross-check',
     url: 'https://www.reddit.com/r/RobloxCodesUnite/comments/1urttuu/universal_tower_defense_z_codes_for_roblox/',
-    checkedAt: '2026-09-07',
+    checkedAt: '2026-09-15',
     confidence: 'medium',
     note: 'Secondary spelling cross-check for the new Update 4 codes.',
   },
