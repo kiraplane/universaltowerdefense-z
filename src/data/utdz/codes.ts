@@ -1,9 +1,19 @@
 import { sources } from './sources';
 import type { GameCode } from './types';
 
-export const CODE_CHECKED_AT = '2026-09-15';
+export const CODE_CHECKED_AT = '2026-10-12';
 
 export const codes: GameCode[] = [
+  {
+    code: 'StepUp!',
+    reward: 'Current event rewards; confirm the exact bundle in the live popup',
+    status: 'working',
+    event: 'general',
+    firstSeen: '2026-10',
+    lastChecked: CODE_CHECKED_AT,
+    sources: [sources.rblxDbCodes],
+    notes: 'Current October code from the latest source check. Copy the mixed-case spelling and exclamation mark exactly.',
+  },
   {
     code: 'DemonicCyborgEvolved',
     reward: '5,000 Gems and 25 Trait Rerolls',
